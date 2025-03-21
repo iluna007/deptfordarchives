@@ -1,0 +1,81 @@
+.recording-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 275px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.recording-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recording-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.recording-image:hover {
+  filter: grayscale(0%);
+}
+
+/* Contenedor para el modo preview */
+.preview-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.waveform-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.recording-id {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw; /* Tamaño más pequeño para la descripción */
+  display: inline-block; /* Para que el fondo se ajuste al contenido */
+  text-align: justify;
+  text-align: left;
+  color: inherit;
+}
+
+/* Detalles completos (modo expandido) */
+.recording-details {
+  padding: 15px;
+}
+
+.recording-details h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw;
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.recording-details p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 1.1vw;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}

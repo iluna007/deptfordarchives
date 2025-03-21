@@ -1,0 +1,19 @@
+/* Ancho del offcanvas a la derecha: 50% de la ventana */
+.offcanvas-end {
+  --bs-offcanvas-width: 25vw !important;
+}
+
+/* Personaliza el backdrop para el offcanvas */
+.offcanvas-backdrop.show {
+  background-color: rgba(98, 0, 255, 0.5) !important; /* Azul semi-transparente */
+}
+
+.offcanvas-backdrop {
+  pointer-events: none !important;
+}
+
+.nav-link {
+  color: inherit !important;
+  text-decoration: none;
+}
+

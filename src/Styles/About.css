@@ -1,0 +1,63 @@
+/* src/Styles/About.css */
+.example {
+  margin-bottom: 40px;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bolder;
+  font-size: 10vw; /* Mantén el tamaño grande para el título */
+  margin: 0;
+  line-height: 0.8;
+  text-align: right;
+   /* Ajusta el espacio entre líneas */
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw; /* Tamaño más pequeño para la descripción */
+  display: inline-block; /* Para que el fondo se ajuste al contenido */
+  text-align: justify;
+  text-align: left;
+  color: inherit;
+}
+
+.description_forlinks_about {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.1vw; /* Tamaño más pequeño para la descripción */
+  display: inline-block; /* Para que el fondo se ajuste al contenido */
+  text-align: justify;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+.description_forlinks_about:hover {
+  color: white;
+}
+
+
+
+.subtitles {
+  font-family: "Montserrat2", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 2vw; /* Tamaño más pequeño para la descripción */
+  margin-top: 1rem;
+  display: inline-block; /* Para que el fondo se ajuste al contenido */
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  text-align: left;
+}
