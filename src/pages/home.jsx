@@ -4,7 +4,7 @@ import "../Styles/Home.css";
 const Home = () => {
 	const videoRef = useRef(null);
 	const videoUrl =
-		"https://res.cloudinary.com/dw1ht0zfd/video/upload/v1743016856/Comp_1_2_aimegy.mp4";
+		"https://res.cloudinary.com/dw1ht0zfd/video/upload/v1743080078/test2_gr5brf.mp4";
 
 	useEffect(() => {
 		const video = videoRef.current;
